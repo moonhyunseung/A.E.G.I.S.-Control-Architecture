@@ -62,6 +62,20 @@ AEGIS의 핵심 로직은 **"열역학적 평형(Thermodynamic Equilibrium)"**�
 
 ### Usage Example
 
+from aegis_control import AEGISController
+
+# Initialize with System Identification Parameters
+controller = AEGISController(
+    base_gain=2.5,      # Default Kp
+    target_noise=1.0,   # Allowed Noise Floor (Temperature)
+    p=1.5               # Fractal Norm Order
+)
+
+# Control Loop
+while True:
+    mv, status = controller.update(sp, pv)
+    # status['r'] : Current Instability Ratio
+    # status['gain'] : Adaptive Gain
 ```python
 from aegis_controller import ZGatedProcessController
 
