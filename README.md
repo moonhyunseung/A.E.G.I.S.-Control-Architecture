@@ -1,9 +1,9 @@
 # A.E.G.I.S.-Control-Architecture
 Homeostatic process control system based on $L^p$ fractal energy analysis and adaptive gain scheduling.
 # 🛡️ A.E.G.I.S. Controller
-### **A**daptive **E**nergy-**G**ated **I**nertial **S**ystem
+### Adaptive Energy-Gated Inertial System
 
-> **"Beyond Static PID: A Homeostatic Approach to Industrial Process Control"**
+> "Beyond Static PID: A Homeostatic Approach to Industrial Process Control"
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -11,11 +11,11 @@ Homeostatic process control system based on $L^p$ fractal energy analysis and ad
 
 ---
 
-## 📖 Overview (개요)
+##  Overview (개요)
 
-**A.E.G.I.S.**는 기존 PID 제어기의 한계(고정된 게인으로 인한 노이즈 취약성 및 보수적 튜닝)를 극복하기 위해 설계된 **차세대 적응형 제어 알고리즘(Adaptive Control Algorithm)**입니다.
+A.E.G.I.S.는 기존 PID 제어기의 한계(고정된 게인으로 인한 노이즈 취약성 및 보수적 튜닝)를 극복하기 위해 설계된 차세대 적응형 제어 알고리즘(Adaptive Control Algorithm)입니다.
 
-이 시스템은 공정의 **오차 에너지(Error Energy)**를 $L^p$ 노름(Norm) 기반으로 실시간 분석하여, 시스템의 상태를 **'안정(Stability)'**과 **'과도(Transient)'** 구간으로 구분합니다. 이를 통해 노이즈가 심할 때는 스스로 감속(Damping)하고, 명확한 제어가 필요할 때는 가속(Boosting)하는 **항상성(Homeostasis)** 메커니즘을 제공합니다.
+이 시스템은 공정의 오차 에너지(Error Energy)를 $L^p$ 노름(Norm) 기반으로 실시간 분석하여, 시스템의 상태를 '안정(Stability)'과 '과도(Transient)' 구간으로 구분합니다. 이를 통해 노이즈가 심할 때는 스스로 감속(Damping)하고, 명확한 제어가 필요할 때는 가속(Boosting)하는 항상성(Homeostasis) 메커니즘을 제공합니다.
 
 ---
 
